@@ -1,6 +1,6 @@
 # reduced-pilots
 
-![Alt text](dataset.png)
+<img src='dataset.png' alt='The zoomed-in image of the top view of the "O1 Blockage" scenario' width='1000'>
 
 ## Information:
 This is the source code for paper  
