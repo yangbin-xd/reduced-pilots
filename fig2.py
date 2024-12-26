@@ -97,5 +97,5 @@ mark_inset(ax, axins2, loc1=2, loc2=4, fc='none', ec='k', lw=1)
 ax.grid(True, ls=':', color='black', alpha=0.3)
 
 # save figure
-plt.savefig('result/fig2.pdf')
+plt.savefig('result/fig2.jpg')
 plt.show()

@@ -29,5 +29,5 @@ plt.tight_layout()
 ax.grid(True, ls=':', color='black', alpha=0.3)
 
 # save figure
-plt.savefig('result/fig3.pdf')
+plt.savefig('result/fig3.jpg')
 plt.show()

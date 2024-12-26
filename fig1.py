@@ -33,5 +33,5 @@ ax.grid(True, ls=':', color='black', alpha=0.3)
 plt.tight_layout()
 
 # save figure
-plt.savefig('result/fig1.pdf')
+plt.savefig('result/fig1.jpg')
 plt.show()

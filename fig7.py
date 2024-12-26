@@ -15,7 +15,7 @@ matplotlib.rcParams['font.family'] = 'times new roman'
 from label import x_train, x_test, y_train, y_test
 
 # set parameters
-SNR = 15
+SNR = 30
 
 # local SNR or global SNR
 if __name__ == '__main__':
@@ -25,7 +25,7 @@ else:
     SNR = np.load('data/SNR.npy')
 
 # load model
-with open('model/svm1_1_0.1_{}.pkl'.format(SNR), 'rb') as file:
+with open('model/svm1_1_{}.pkl'.format(SNR), 'rb') as file:
     best_model = pickle.load(file)
 
 def plot_decision_boundary(model, X, y):
@@ -61,7 +61,7 @@ def plot_decision_boundary(model, X, y):
 
 # plot figure
 plot_decision_boundary(best_model, x_train, y_train)
-plt.savefig(f'result/fig9_{SNR}.pdf')
-plot_decision_boundary(best_model, x_test, y_test)
-# plt.savefig(f'result/test{SNR}.pdf')
+plt.savefig(f'result/fig7_{SNR}.jpg')
+# plot_decision_boundary(best_model, x_test, y_test)
+# plt.savefig(f'result/test{SNR}.jpg')
 plt.show()

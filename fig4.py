@@ -86,5 +86,5 @@ plt.yticks(fontsize=24)
 ax.grid(True, ls=':', color='black', alpha=0.3)
 
 # save figure
-plt.savefig('result/fig4.pdf')
+plt.savefig('result/fig4.jpg')
 plt.show()

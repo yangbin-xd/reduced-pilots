@@ -13,8 +13,8 @@ matplotlib.rcParams['font.family'] = 'times new roman'
 
 # set parameters
 loc_std = 1
-fading_ratio = 0.5
-SNR = 15
+fading_ratio = 0.1
+SNR = 0
 
 # local parameters or global parameters
 if __name__ == '__main__':
@@ -49,7 +49,7 @@ grid_search.fit(x_train, y_train)
 scores = grid_search.cv_results_['mean_test_score']
 scores_matrix = (scores.reshape(len(param_grid['C']), len(param_grid['gamma'])) * 100)
 best_model = grid_search.best_estimator_
-with open('model/svm{}_{}_{}_{}.pkl'.format(FR, loc_std, fading_ratio, SNR), 'wb') as file:
+with open('model/svm{}_{}_{}.pkl'.format(FR, loc_std, SNR), 'wb') as file:
     pickle.dump(best_model, file)
 
 # print results
@@ -87,6 +87,6 @@ ax.set_xticklabels(xticklabels, fontsize=30)
 ax.set_yticklabels(yticklabels, fontsize=30, rotation=0)
 plt.tight_layout()
 
-# # save figure
-# plt.savefig('result/fig8.pdf')
-# plt.show()
+# save figure
+plt.savefig('result/fig6.jpg')
+plt.show()

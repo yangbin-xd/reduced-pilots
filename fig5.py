@@ -33,5 +33,5 @@ plt.subplots_adjust(right=0.6)
 ax.grid(True, ls=':', color='black', alpha=0.3)
 
 # save figure
-plt.savefig('result/fig5.pdf')
+plt.savefig('result/fig5.jpg')
 plt.show()
