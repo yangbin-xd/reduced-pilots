@@ -1,6 +1,6 @@
 # reduced-pilots
 
-<img src='dataset.png' alt='The zoomed-in image of the top view of the "O1 Blockage" scenario' width='1000'>
+<img src='system.jpg' alt='The framework' width='800'>
 
 ## Information:
 This is the source code for paper  
