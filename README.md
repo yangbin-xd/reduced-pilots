@@ -1,6 +1,7 @@
 # reduced-pilots
 
-<img src='framework.jpg' alt='The framework' width='800'>
+<img src='framework.jpg' alt='The framework' width='500'>
+The framework of radio map-based beamforming assisted with reduced pilots.  
 
 ## Information:
 This is the source code for paper  
