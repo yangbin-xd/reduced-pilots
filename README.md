@@ -1,6 +1,6 @@
 # reduced-pilots
 
-<img src='framework.jpg' alt='The framework' width='800'>
+<img src='framework.jpg' alt='The framework' width='500'>
 
 ## Information:
 This is the source code for paper  
