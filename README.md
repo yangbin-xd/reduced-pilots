@@ -1,6 +1,6 @@
 # reduced-pilots
 
-<img src='scenario.png' width='500'>
+<img src='./scenario.png' width='500'>
 The channel model of wireless communications with deterministic propagation and random scattering.    
 
 ## Information:
