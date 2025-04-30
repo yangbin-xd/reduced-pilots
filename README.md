@@ -4,7 +4,7 @@
 The channel model of wireless communications with deterministic propagation and random scattering.    
 
 ## Information:
-This is the source code for IEEE Trans. Wireless Commun. paper  
+This is the source code for _IEEE Trans. Wireless Commun._ paper  
 __"Radio Map-Based Beamforming Assisted with Reduced Pilots"__  
 _Welcome to cite this article !_
 
