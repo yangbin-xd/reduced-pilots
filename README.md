@@ -1,7 +1,7 @@
 # reduced-pilots
 
-<img src='framework.jpg' alt='The framework' width='500'>
-The framework of radio map-based beamforming assisted with reduced pilots.  
+<img src='scenario.png' alt='The framework' width='500'>
+The channel model of wireless communications with deterministic propagation and random scattering.    
 
 ## Information:
 This is the source code for paper  
@@ -9,13 +9,16 @@ __"Radio Map-Based Beamforming Assisted with Reduced Pilots"__
 _Welcome to cite this article !_
 
 ```
-@inproceedings{yang2024cell,
+@article{yang2025radio,
+  title={Radio map-based beamforming assisted with reduced pilots},
   author={Yang, Bin and Wang, Wei and Zhang, Wei},
-  booktitle={Radio map-based beamforming assisted with reduced pilots},
-  title={},
+  journal={IEEE Trans. Wireless Commun.},
+  volume={},
+  number={},
+  pages={},
   month={},
-  year={2024},
-  pages={}
+  year={2025},
+  publisher={IEEE}
 }
 ```
 Video introducing radio map: https://www.youtube.com/watch?v=KqihgPd0c2o
