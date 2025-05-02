@@ -61,9 +61,21 @@ python GBM.py
 ```
 python CKM.py
 ```
-10. Finally, the proposed radio map  
+10. The proposed reduced pilots-based beamforming
 ```
-python RM.py
+python reduced_pilot.py
+```
+11. The proposed radio map-based beamforming 
+```
+python radio_map.py
+```
+12. The integration of radio map and reduced pilots
+```
+python integrate.py
+```
+13. The integration with SVM-based discriminator
+```
+python integrate_svm.py
 ```
 
 ## Authors:  
