@@ -24,56 +24,55 @@ _Welcome to cite this article !_
 Video introducing radio map: https://www.youtube.com/watch?v=KqihgPd0c2o
 
 ## 🛠️ Please follow the following steps:
-1. Create virtual environment for this repository  
+__1. Create virtual environment for this repository__  
 ```
 virtualenv env_RP
 ```
-2. Activate the created environment
+__2. Activate the created environment__
 ```
 source env_RP/bin/activate
 ```
-3. git clone the repository to your folder
+__3. git clone the repository to your folder__
 ```
 git clone https://github.com/yangbin-xd/reduced-pilots.git
 ```
-4. cd to the folder
+__4. cd to the folder__
 ```
 cd reduced-pilots
 ```
-5. pip install required modules according to the requirements
+__5. pip install required modules according to the requirements__
 ```
 pip install -r requirements.txt --no-deps
 ```
-6. __Please uninstall the numpy with high version__
+__6. Please uninstall the numpy with high version__
 ```
 pip uninstall numpy
 ```
-7. __And degrade the numpy version to 1.19.5__
+__7. And degrade the numpy version to 1.19.5__
 ```
 pip install numpy==1.19.5
 ```
-
-8. Then, you can run benchmark of location-based beamforming
+__8. Then, you can run benchmark of location-based beamforming__
 ```
 python GBM.py
 ```
-9. And benchmark of channel knowledge map
+__9. And benchmark of channel knowledge map__
 ```
 python CKM.py
 ```
-10. The proposed reduced pilots-based beamforming
+__10. The proposed reduced pilots-based beamforming__
 ```
 python reduced_pilot.py
 ```
-11. The proposed radio map-based beamforming 
+__11. The proposed radio map-based beamforming__ 
 ```
 python radio_map.py
 ```
-12. The integration of radio map and reduced pilots
+__12. The integration of radio map and reduced pilots__
 ```
 python integrate.py
 ```
-13. The integration with SVM-based discriminator
+__13. The integration with SVM-based discriminator__
 ```
 python integrate_svm.py
 ```
