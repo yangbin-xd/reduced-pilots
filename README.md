@@ -34,7 +34,7 @@ source env_RP/bin/activate
 ```
 
 __2. Download the repository to local__
-```
+```python
 # git clone the repository to your folder
 git clone https://github.com/yangbin-xd/reduced-pilots.git  
 
@@ -43,7 +43,7 @@ cd reduced-pilots
 ```
 
 __3. Install the required modules__
-```
+```python
 # pip install required modules according to the requirements
 pip install -r requirements.txt --no-deps
 
@@ -55,7 +55,7 @@ pip install numpy==1.19.5
 ```
 
 __4. Then, you can run files__
-```
+```python
 # run benchmark of location-based beamforming   
 python GBM.py
 
