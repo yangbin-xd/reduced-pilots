@@ -8,7 +8,7 @@ This is the source code for _IEEE Trans. Wireless Commun._ paper
 __"Radio Map-Based Beamforming Assisted with Reduced Pilots"__  
 _Welcome to cite this article !_
 
-```
+```bibtex
 @article{yang2025radio,
   title={Radio map-based beamforming assisted with reduced pilots},
   author={Yang, Bin and Wang, Wei and Zhang, Wei},
