@@ -26,52 +26,52 @@ Video introducing radio map: https://www.youtube.com/watch?v=KqihgPd0c2o
 ## 🛠️ Please follow the following steps:
 __1. Configure virtual environment for this repository__  
 ```
-% Create virtual environment for this repository
+# Create virtual environment for this repository
 virtualenv env_RP
 
-% Activate the created environment
+# Activate the created environment
 source env_RP/bin/activate
 ```
 
 __2. Download the repository to local__
 ```
-% git clone the repository to your folder
+# git clone the repository to your folder
 git clone https://github.com/yangbin-xd/reduced-pilots.git  
 
-% cd to the folder
+# cd to the folder
 cd reduced-pilots
 ```
 
 __3. Install the required modules__
 ```
-% pip install required modules according to the requirements
+# pip install required modules according to the requirements
 pip install -r requirements.txt --no-deps
 
-%  Please uninstall the numpy with high version
+#  Please uninstall the numpy with high version
 pip uninstall numpy
 
-% And degrade the numpy version to 1.19.5
+# And degrade the numpy version to 1.19.5
 pip install numpy==1.19.5
 ```
 
 __4. Then, you can run files__
 ```
-% run benchmark of location-based beamforming   
+# run benchmark of location-based beamforming   
 python GBM.py
 
-% And benchmark of channel knowledge map
+# And benchmark of channel knowledge map
 python CKM.py
 
-% The proposed reduced pilots-based beamforming  
+# The proposed reduced pilots-based beamforming  
 python reduced_pilot.py
 
-% The proposed radio map-based beamforming
+# The proposed radio map-based beamforming
 python radio_map.py
 
-% The integration of radio map and reduced pilots
+# The integration of radio map and reduced pilots
 python integrate.py
 
-% The integration with SVM-based discriminator
+# The integration with SVM-based discriminator
 python integrate_svm.py
 ```
 
