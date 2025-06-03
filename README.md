@@ -5,7 +5,7 @@ The channel model of wireless communications with deterministic propagation and 
 
 ## 📝 Information:
 This is the source code for _IEEE Trans. Wireless Commun._ paper  
-__"Radio Map-Based Beamforming Assisted with Reduced Pilots"__[https://ieeexplore.ieee.org/document/11008499]  
+__"Radio Map-Based Beamforming Assisted with Reduced Pilots"__ https://ieeexplore.ieee.org/document/11008499  
 _Welcome to cite this article !_
 
 ```bibtex
