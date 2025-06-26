@@ -1,4 +1,8 @@
-# 🚨 reduced-pilots
+# 🚨 reduced-pilots  
+
+[![Code](https://img.shields.io/badge/Code-GitHub-blue?logo=github)](https://github.com/yangbin-xd/reduced-pilots)
+[![Paper](https://img.shields.io/badge/Paper-IEEE-blue?logo=ieee)](https://ieeexplore.ieee.org/document/11008499)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 <img src='scenario.png' width='500'>
 The channel model of wireless communications with deterministic propagation and random scattering.    
