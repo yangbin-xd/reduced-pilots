@@ -13,7 +13,7 @@ parameters = DeepMIMO.default_params()
 
 # Change parameters for the setup
 parameters['scenario'] = 'O1_3p5B' 
-parameters['scenario'] = 'O1_28B' 
+# parameters['scenario'] = 'O1_28B' 
 
 # Set the main folder containing extracted scenarios
 parameters['dataset_folder'] = r'scenarios'
