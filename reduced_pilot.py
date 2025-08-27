@@ -11,7 +11,7 @@ from tensorflow.keras import models
 # set parameters
 fading_ratio = 0.1
 SNR = 30
-eta = 50 # 100，75，50，25
+eta = 50 # 100, 75, 50, 25
 
 # local parameters or global parameters
 if __name__ == '__main__':
