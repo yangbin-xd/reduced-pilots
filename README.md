@@ -18,10 +18,10 @@ _Welcome to cite this article !_
   title={Radio map-based beamforming assisted with reduced pilots},
   author={Yang, Bin and Wang, Wei and Zhang, Wei},
   journal={IEEE Trans. Wireless Commun.},
-  volume={},
-  number={},
-  pages={},
-  month={},
+  volume={24},
+  number={10},
+  pages={8878--8891},
+  month={Oct.},
   year={2025},
   publisher={IEEE}
 }
